@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: "https://finance-backend-3-jfef.onrender.com/api",
+        url: "https://finance-backend-3-jfef.onrender.com",
       },
     ],
 
