@@ -10,11 +10,10 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:5000",
+        url: "https://finance-backend-3-jfef.onrender.com/api",
       },
     ],
 
-    // 🔥 YEH ANDAR hona chahiye
     components: {
       securitySchemes: {
         bearerAuth: {
@@ -24,8 +23,6 @@ const options = {
         },
       },
     },
-
-    // 🔥 optional but recommended
     security: [
       {
         bearerAuth: [],
